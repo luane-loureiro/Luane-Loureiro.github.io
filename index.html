@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="Pt-Br">
+<html lang="Pt-Br" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +12,42 @@
 </head>
 <body>
     <header class="header">
+        <nav class="nav--principal">
+            <ul class="menu menu--principal">
+                <li class="menu__item">
+                    <a class="menu__link" href="#home">
+                        <span class="menu__text">Home</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#projetos">
+                        <span class="menu__text">Projetos</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#sobre">
+                        <span class="menu__text">Sobre</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#contato">
+                        <span class="menu__text">Contato</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
         <div class="header__brand">
             <img class="brand__logo" src="assets/images/Luane-Loureiro-logo.svg" alt="logo">
         </div>
-        <i id="toggleTheme" class="bi bi-sun"></i>
+        <div class="header__toggle">
+            <i id="toggleTheme" class="bi bi-sun"></i>
+        </div>
+
+
+
     </header>
-    <nav>
+    <nav class="nav--mobile">
         <ul class="menu menu--mobile">
             <li class="menu__item">
                 <a class="menu__link active" href="#home">
@@ -45,6 +75,39 @@
             </li>
         </ul>
     </nav>
-    <h1>Luane Loureiro</h1>
+    <main id="home">
+        <div class="main__content1">
+          <h1><b>Soluções Criativas &</b> Desenvolvimento Front-end</h1>
+
+          <p><span class="name__profile">carregando...</span>, sou  <span class="job__profile">carregando...</span>, Designer e Ilustradora.</p> 
+
+          <ul class="menu menu--social">
+            <li>
+              <a class="menu__link" href="https://github.com/luane-loureiro" target="_blank">
+                <i class="menu__icon bi bi-github"></i>
+              </a>
+            </li>
+            <li>
+              <a class="menu__link" href="https://www.linkedin.com/in/luane-loureiro/" target="_blank">
+                <i class="menu__icon bi bi-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a class="menu__link" href="" target="_blank">
+                <i class="menu__icon bi bi-instagram"></i>
+              </a>
+            </li>
+          </ul>
+    </main>
+    <footer>
+        <p>
+            @2024. Todos os direitos reservados. Luane Loureiro. Desenvolvido por <a href="http://github.com/luane-loureiro">LL</a>
+        </p>
+    </footer>
+
+    <script src="assets/js/scripts.js"></script>
+    <script src="/assets/scripts/api.js"></script>
+    <script src="/assets/scripts/main.js"></script>
+
 </body>
 </html>
