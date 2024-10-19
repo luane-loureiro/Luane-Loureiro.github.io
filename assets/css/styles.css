@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --primary-collor: #fdfaff;
+    --primary-bg-collor: #382B3C;
+    --secondary-bg-collor: #563560;
+    --border-collor: #66496F;
+    --title-color: #E1CDED;
+    --text-color: #E1CDED;
+    --link-color: #866F8D;
+    --icon-color:#C390E1;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    list-style: none;
+}
+
+body{
+    background-color: var(--primary-bg-collor);
+    font-family:'Inter', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+i{
+    color: var(--icon-color);
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 1rem;
+
+}
+
+.header__brand .brand__logo {
+    width: 10rem;
+
+}
+
+#toggleTheme{
+    font-size: 1.8rem;
+    color: var(--primary-collor);
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-bg-collor);
+}
+
+.menu__item{
+    width: 100%;
+}
+.menu--mobile{
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+    border-top: 1px solid var(--border-collor);
+}
+
+.menu--mobile .menu__link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 1rem;
+    gap: .5rem;
+
+}
+
+.menu__icon, .menu__text {
+    color: var(--icon-color)
+}
+
+.menu__link.active .menu__icon, .menu__link.active .menu__text{
+    color: var(--primary-collor);
+    font-weight: 600;
+
+}
+
+.menu__icon {
+    font-size: 1.5rem;
+}
+
+.menu__text {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+@media (min-width:768px) {
+    .menu--mobile{
+        display: none;
+    }
+}
