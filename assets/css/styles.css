@@ -26,9 +26,21 @@
 }
 
 html[data-theme='light'] .brand__logo{
-    filter: invert(.8);
-
+    filter: invert(20%) sepia(11%) saturate(2833%) hue-rotate(241deg) brightness(99%) contrast(84%);
 }
+
+html[data-theme='dark'] .brand__logo{
+    filter: invert(99%) sepia(54%) saturate(2014%) hue-rotate(185deg) brightness(94%) contrast(98%);
+}
+
+html[data-theme='dark'] .skills__logo{
+    filter: invert(66%) sepia(29%) saturate(677%) hue-rotate(228deg) brightness(92%) contrast(90%);
+}
+
+html[data-theme='light'] .skills__logo{
+    filter: invert(53%) sepia(7%) saturate(1183%) hue-rotate(241deg) brightness(85%) contrast(91%);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -72,6 +84,12 @@ h1, h2, h3 {
 h1{
     font-size: 2.5rem;
     color: var(--title-color);
+}
+
+.projects h2{
+    font-size: 2rem;
+    text-align: center;
+
 }
 
 p{
@@ -125,6 +143,7 @@ i{
     border-top: 2px solid var(--border-collor);
     background-color: var(--primary-bg-collor);
     transition: ease-in-out .6s;
+    z-index: 1;
     
 }
 
@@ -193,7 +212,7 @@ i{
     color: var(--primary-collor);
 }
 
-main{
+main, .projects{
     display: flex;
     flex-direction: column;
     padding:  1.5rem 2rem ;
@@ -210,25 +229,23 @@ main{
 
 }
 
-.skills {
+.skills, .certificacao{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-flow: column wrap;
+    justify-content: center;
     padding: 3rem 1rem;
-    background: var(--border-collor);
     gap: 3rem;
-
 }
 
-.skills h2{
+.skills h2, .certificacao h2{
     font-size: 2rem;
     text-transform: none;
     padding-bottom: 1.5rem;
 
 }
 
-.skills__list{
+.skills__list, 
+.certificacao__list{
     display: flex;
     flex-flow: row wrap ;
     justify-content: space-between;
@@ -236,22 +253,30 @@ main{
 
 }
 
-.skills__item {
+.skills__item,
+.certificacao__item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
     width: 6rem;
-    height: 7rem;
-    border-radius: 3rem;
-
 }
 
 .skills__logo {
     width: 4rem;
 }
 
+.certificacao__item {
+    width: 15rem !important ;
+}
+.certificacao__logo{
+    width: 8rem;
+
+}
+
+.projects{
+
+}
 footer {
     margin-bottom: 2rem;
 }
@@ -269,6 +294,7 @@ footer p {
         border-bottom: 1px solid var(--primary-border-color);
         padding: 1rem 20rem;
         background: var(--secondary-bg-collor);
+        z-index: 1;
       }
       .nav--mobile {
         display: none;
@@ -278,6 +304,7 @@ footer p {
         display: flex;
         justify-content: right;
         width: 70%;
+
       }
     
       .header__toggle {
@@ -321,7 +348,7 @@ footer p {
     .menu--principal{
         display: flex;
         justify-content:end;
-        border: solid 1 px red;
+
     }
 
     .menu__text {
@@ -344,7 +371,7 @@ footer p {
         padding: 4rem 20rem 4rem;
     }
 
-    .skills h2 {
+    .skills h2, .certificacao h2 {
         font-size: 3rem;
         width: 55%;
         padding-bottom: 3rem;
@@ -353,7 +380,8 @@ footer p {
     
 
     .skills__item{
-        width: 12rem;
+        width: 10rem;
+
     }
 
     .skills__nome{
@@ -361,9 +389,14 @@ footer p {
     }
 
     .skills__logo {
-        height: 3rem;
+        height: 5rem;
     }
-   
+
+    .certificacao {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 4rem 20rem 4rem;   
+    }
 }
 
 @media (min-width:1400px) {

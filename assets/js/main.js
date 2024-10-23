@@ -49,54 +49,51 @@ function updateRedesSociais(profileData) {
      `).join('')
  }
 
- function updateSoftSkills(profileData) {
+function updateSoftSkills(profileData) {
      const softSkills = document.getElementById('skills__softSkills')
      softSkills.innerHTML = profileData.skills.softSkills.map(skill => `
      <ul>
-         <li class="skills__item">
-            <img class="skills__logo" src="${skill.logo}" alt="${skill.name}">
+         <li class="skills__item" >
+            <img class="skills__logo" id="soft" src="${skill.logo}" alt="${skill.name}" >
             <span class="skills__nome">${skill.name}</span>
+
          </li>
      </ul>
  `).join('')
 
   }
 
-//  function updateHobbies(profileData) {
-//     const hobbies = document.getElementById('profile.skills.hobbies')
-//     hobbies.innerHTML = profileData.skills.hobbies.map(hobby => `
-//     <div class="hobbies__box">
-//     <ul>
-//         <li class="hobbies__img"><img src="${hobby.logo}" alt="${hobby.name}">
-//         </li>
-//         <li class="hobbies__name">${hobby.name}
-//         </li>
-//     </ul>
-// </div>
-// `).join('')
-//  }
+function updateHobbies(profileData) {
+    const hobbies = document.getElementById('skills__hobbies')
+    hobbies.innerHTML = profileData.skills.hobbies.map(hobby => `
+    <ul>
+        <li class="skills__item" >
+            <img class="skills__logo" src="${hobby.logo}" alt="${hobby.name}">
+            <span class="skills__nome">${hobby.name}</span>
+
+        </li>
+    </ul>
+
+  `).join('')
+}
 
  
-// function updateCertificacoes(profileData) {
-//     const certificacoes = document.getElementById('profile.certificacao')
-//     certificacoes.innerHTML = profileData.certificacao.map(cert => `
-//     <a href="${cert.link}">
-//     <div class="certificacao__box">
-//     <ul class="certificacao__list">
-//         <li class="certificacao__item__img">
-
-//                 <img src="${cert.image}" >
-//                 <h4>
-//                     ${cert.name}
-//                 </h4>          
-//         </li>
-          
-//     </ul>
-// </div>
-// </a>
+ function updateCertificacoes(profileData) {
+     const certificacoes = document.getElementById('certificacao')
+     certificacoes.innerHTML = profileData.certificacao.map(cert => `
+     <ul>
+        <a href="${cert.link}">
+        <li class="certificacao__item">
+                 <img class="certificacao__logo" src="${cert.image}">
+                 <span>
+                     ${cert.name}
+                 </span>          
+         </li>          
+     </ul>
+ </a>
     
-//     `).join('<br><br>')
-// }
+     `).join('')
+ }
 
 //  function updateFormacao(profileData) {
 //     const formacao = document.getElementById('academic__courses')
@@ -186,9 +183,9 @@ function updateRedesSociais(profileData) {
     updateRedesSociais(profileData)
     updateHardSkills(profileData)
     updateSoftSkills(profileData)
-    // updateHobbies(profileData)
+    updateHobbies(profileData)
     // updateFormacao(profileData)
-    // updateCertificacoes(profileData)
+    updateCertificacoes(profileData)
     // updatePortfolio(profileData)
     // updateProfessionalExperience(profileData)
 })()
