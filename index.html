@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luane Loureiro | Portfólio</title>
     <meta name="description" content="Portfolio da desenvolvedora Luane Loureiro para compartilhar projetos e habilidades desenvolvidas">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 </head>
 <body>
     <header class="header">
-        <nav class="nav--principal">
+        <div class="header__brand">
+            <img class="brand__logo" src="assets/images/Luane-Loureiro-logo.svg" alt="logo">
+        </div>
+        
+        <nav class="header__nav">
             <ul class="menu menu--principal">
                 <li class="menu__item">
                     <a class="menu__link" href="#home">
@@ -37,9 +41,6 @@
             </ul>
         </nav>
 
-        <div class="header__brand">
-            <img class="brand__logo" src="assets/images/Luane-Loureiro-logo.svg" alt="logo">
-        </div>
         <div class="header__toggle">
             <i id="toggleTheme" class="bi bi-sun"></i>
         </div>
@@ -78,36 +79,55 @@
     <main id="home">
         <div class="main__content1">
           <h1><b>Soluções Criativas &</b> Desenvolvimento Front-end</h1>
+          
+          <p><span class="name__profile">nome</span>, Rio de Janeiro RJ, <span class="job__profile">nome</span>, Designer e Ilustradora.</p> 
 
-          <p><span class="name__profile">carregando...</span>, sou  <span class="job__profile">carregando...</span>, Designer e Ilustradora.</p> 
-
-          <ul class="menu menu--social">
-            <li>
-              <a class="menu__link" href="https://github.com/luane-loureiro" target="_blank">
-                <i class="menu__icon bi bi-github"></i>
-              </a>
-            </li>
-            <li>
-              <a class="menu__link" href="https://www.linkedin.com/in/luane-loureiro/" target="_blank">
-                <i class="menu__icon bi bi-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a class="menu__link" href="" target="_blank">
-                <i class="menu__icon bi bi-instagram"></i>
-              </a>
-            </li>
+          <ul class="menu menu--social title__network" id="title__network">
+            <!-- links de suas redes sociais -->            
           </ul>
+          <button class="btn btn--primary">
+            <span>Ver Projetos</span>
+            <i class="bi bi-arrow-down-right"></i>
+          </button>
+
+        <diV class="main__content2">
+            <!-- Video mostrando os projetos-->
+        </diV>
     </main>
+    <section class="skills">
+        <div>
+            <h2>
+                Conhecimento nas Principais Tecnologias do mercado
+            </h2>
+            <div class="skills__list skills__hardSkills" id="skills__hardSkills">
+                <!-- logo das tecnologias -->            
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <div>
+            <h2>
+                As Softskill mais buscadas para um profissional de Tecnologia
+            </h2>
+            <div class="skills__list skills__softSkills" id="skills__softSkills">
+            <!-- logo das tecnologias -->            
+            </div>
+        </div>
+
+    </section>
+
     <footer>
         <p>
-            @2024. Todos os direitos reservados. Luane Loureiro. Desenvolvido por <a href="http://github.com/luane-loureiro">LL</a>
+            @2024. Todos os direitos reservados. Desenvolvido por 
+            <a href="http://github.com/luane-loureiro">
+                Luane Loureiro
+            </a>
         </p>
     </footer>
 
     <script src="assets/js/scripts.js"></script>
-    <script src="/assets/scripts/api.js"></script>
-    <script src="/assets/scripts/main.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 </html>

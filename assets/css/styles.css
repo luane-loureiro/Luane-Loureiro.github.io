@@ -39,23 +39,44 @@ html[data-theme='light'] .brand__logo{
 }
 
 body{
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
     background-color: var(--primary-bg-collor);
     font-family:'Inter', Tahoma, Geneva, Verdana, sans-serif;
     transition: ease-in-out .6s;
+
 }
 
 a {
     text-decoration: none;
+
 }
 
 a:hover{
     color: var(--primary-collor);
     font-weight: 600;
+    cursor: pointer;
+}
+
+b{
+    font-weight: 400;
 }
 
 h1, h2, h3 {
     font-family: 'League Spartan', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
+    font-weight: 200;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: var(--title-color);
+}
+
+p{
+    font-size: 1.25rem;
+    text-align: justify;
 }
 
 i{
@@ -68,8 +89,7 @@ i{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0.5rem 1rem;
-
+    padding:  1rem;
 }
 
 .header__toggle{
@@ -102,7 +122,7 @@ i{
     position: fixed;
     bottom: 0;
     justify-content: space-between;
-    border-top: 1px solid var(--border-collor);
+    border-top: 2px solid var(--border-collor);
     background-color: var(--primary-bg-collor);
     transition: ease-in-out .6s;
     
@@ -141,58 +161,214 @@ i{
     text-transform: uppercase;
 }
 
-.nav--principal{
+.header__nav{
     display: none;
-
 }
 
-.menu--principal{
+.menu--principal, .menu--social{
     gap: 1rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .625rem;
+    width: 100%;
+    background: transparent;
+    border-radius: 3.125rem;
+    padding: 0.87rem 1rem;
+}
+
+.btn span, .btn i{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.btn--primary {
+    border: 1px solid var(--primary-collor);
+}
+
+.btn--primary span{
+    color: var(--primary-collor);
 }
 
 main{
     display: flex;
     flex-direction: column;
+    padding:  1.5rem 2rem ;
+}
+
+.main__content1{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
     gap: 2rem;
-    padding: 2.5rem 1rem;
+}
+
+.main__content2{
+
+}
+
+.skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 3rem 1rem;
+    background: var(--border-collor);
+    gap: 3rem;
+
+}
+
+.skills h2{
+    font-size: 2rem;
+    text-transform: none;
+    padding-bottom: 1.5rem;
+
+}
+
+.skills__list{
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+
+.skills__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 6rem;
+    height: 7rem;
+    border-radius: 3rem;
+
+}
+
+.skills__logo {
+    width: 4rem;
 }
 
 footer {
-    margin-bottom: 5rem;
-  }
-  
+    margin-bottom: 2rem;
+}
+ 
 footer p {
     font-size: .875rem;
     text-align: center;
     padding: 1rem;
+    margin-bottom: 5rem;
   }
 
 @media (min-width:768px) {
     .header {
         position: fixed;
-        border-bottom: 1px solid var(--border-collor);
-        padding: 1rem 4rem;   
+        border-bottom: 1px solid var(--primary-border-color);
+        padding: 1rem 20rem;
         background: var(--secondary-bg-collor);
-        transition: ease-in-out .6s;
-    }
-
-    .nav--mobile{
+      }
+      .nav--mobile {
         display: none;
-    }
-    .nav--principal{
+      }
+    
+      .header__nav {
         display: flex;
+        justify-content: right;
+        width: 70%;
+      }
+    
+      .header__toggle {
+        min-width: 5%;
+        
+      }
+    
+      h1 {
+        font-size: 5rem;
+      }
+    
+      h2 {
+        font-size: 3rem;
+      }
+    
+    .projects, .about {
+        padding: 10rem 6rem 4rem 6rem;
+      }
+}
+@media (min-width:1200px) {
+
+    h2 {
+        font-size: 4rem;
+    }
+    
+    h3 {
+        font-size: 2.5rem;
+    }
+    
+    main {
+        padding: 12rem 20rem 2rem;
     }
 
-    .header__
-
-    .nav--principal,.header__toggle{
-        min-width: 30%;
+    .header {
+        padding: 1rem 20rem;
     }
+
+    .header__brand .brand__logo {
+        width: 15vw;  
+    }
+    .menu--principal{
+        display: flex;
+        justify-content:end;
+        border: solid 1 px red;
+    }
+
+    .menu__text {
+        font-size: 1rem;
+    }
+    
+    .main__content1 .btn {
+        width: 20rem;
+    }
+  
+    p,  i{
+        font-size: 1,5rem;
+    }
+
+
+
+    .skills{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 4rem 20rem 4rem;
+    }
+
+    .skills h2 {
+        font-size: 3rem;
+        width: 55%;
+        padding-bottom: 3rem;
+        
+        }
+    
+
+    .skills__item{
+        width: 12rem;
+    }
+
+    .skills__nome{
+        font-size: 1.2rem;
+    }
+
+    .skills__logo {
+        height: 3rem;
+    }
+   
 }
 
 @media (min-width:1400px) {
     .header {
-        padding: 1rem 15rem;   
+        padding: 1rem 20rem;   
     }
 
 }
