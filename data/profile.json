@@ -50,98 +50,98 @@
         "hardSkills": [
       {
         "name": "HTML5",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_html5.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_html5.svg"
       },
       {
         "name": "CSS3",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_css3.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_css3.svg"
       },
       {
         "name": "Java Script",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_js.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_js.svg"
       },
       {
         "name": "Type Script",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_ts.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_ts.svg"
       },
       {
         "name": "Node JS",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_nodejs.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_nodejs.svg"
       },
       {
         "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_angular_2.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_angular_2.svg"
       },
       {
         "name": "React",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_react_2.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_react_2.svg"
       },
       {
         "name": "AWS",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_aws.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_aws.svg"
       },
       {
         "name": "Python",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_python.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_python.svg"
       }, 
       {
         "name": "Figma",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_figma.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_figma.svg"
       },       
       {
         "name": "Adobe Photo Shop",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_ps.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_ps.svg"
       },
       {
         "name": "Adobe Illustrator",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_illustrator.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_illustrator.svg"
       },
       {
         "name": "Corel Draw",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/coreldraw.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/coreldraw.svg"
       },
       {
         "name": "Pro-Create",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/procreate_2.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/procreate_2.svg"
       }
 
     ],
     "softSkills": [
       {
         "name":"Resolução de Problemas",
-        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_problemsolve.svg"
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_problemsolve.svg"
       },
       {
         "name":"Criatividade",
-        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_criatividade.svg"
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_criatividade.svg"
       },
       {
         "name":"Foco",
-        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_foco.svg"
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_foco.svg"
       },
       {
         "name":"Responsabilidade",
-        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_responsabilidade.svg"
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_responsabilidade.svg"
       },
       {
         "name":"Pontualidade",
-        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_pontualidade.svg"
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_pontualidade.svg"
       },
       {
         "name":"Aprendizagem Continua",
-        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_Vontadedeaprender.svg"
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_Vontadedeaprender.svg"
       },
       {
         "name":"Organização",
-        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_organizacao.svg"
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_organizacao.svg"
       },
       {
         "name":"Moral e Ética Profissional",
-        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_moraleetica.svg"
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_moraleetica.svg"
       },
       {
         "name":"Perceverença",
-        "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_perceveranca.svg"
+        "logo":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/new_perceveranca.svg"
       }
 
       
