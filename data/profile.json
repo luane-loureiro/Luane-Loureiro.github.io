@@ -102,7 +102,7 @@
       },
       {
         "name": "Pro-Create",
-        "logo": "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_procreate_2.svg"
+        "logo": "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_procreate.svg"
       }
 
     ],
@@ -176,17 +176,23 @@
   },
 
   "formacao": [
-    { 
-      "name":"Universidade Federal Do Rio de Janeiro",
-      "curso":"Artes Plásticas - Pintura (8 Semestres)",
-      "descricao": "2004 - 2009 (trancado) - EBA - UFRJ",
-      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/ufrj.png"
+    {
+      "name":"Universidade Estácio de Sá",
+      "curso":"Análise e Desenvolvimento de Sistemas",
+      "descricao": "2024 - 2026 (Cursando) - UESa",
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/estacio.png"
     },
     {
       "name":"Universidade Estácio de Sá",
       "curso":"Desenho Industrial (7 semestres)",
       "descricao": "2009 - 2012 (trancado) - UESa",
       "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/estacio.png"
+    },
+    { 
+      "name":"Universidade Federal Do Rio de Janeiro",
+      "curso":"Artes Plásticas - Pintura (8 Semestres)",
+      "descricao": "2004 - 2009 (trancado) - EBA - UFRJ",
+      "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/ufrj.png"
     },
     {
       "name":"California Institute of the Arts",
@@ -261,6 +267,19 @@
       "logo":"https://hermes.dio.me/tracks/2b3eb506-d986-4a63-b353-c086684ff557.png"
     }, 
     {
+      "name":"Digital Inovação One",
+      "curso":"Formação Lógica de Programação (41 Horas)",
+      "descricao": "2024 - DIO",
+      "logo":"https://assets.dio.me/JdBTHUCmNxrrJUiTJ2Xr3uCb3ERnBFWVbLU0kZlfxpY/f:webp/h:120/q:80/L3RyYWNrcy85NzdkMWI0MS01ODg4LTQ0ZDctOGU0Yy01N2QyMzQ4NzQ4ZGMucG5n"
+    }, 
+    {
+      "name":"GFT & Digital Inovação One",
+      "curso":"GFT Start #6 - Lógica de Programação (47 Horas)",
+      "descricao": "2024 - DIO",
+      "logo":"https://assets.dio.me/oEuZKiOwpvtuBDxT1w3JmR34hks6rDCQmAaVZnjkGds/f:webp/h:120/q:80/L3RyYWNrcy9iMTgwNzQzZC03OWRmLTQ0OWUtYmY0My05Y2U1ODAzYjY3NGMucG5n"
+    },
+
+    {
       "name":"Alura e Oracle",
       "curso":"T6 One - Iniciante em Programação (54 horas)",
       "descricao": "2024 - Alura/Oracle",
@@ -301,6 +320,22 @@
 
 
   "portfolio": [
+    { 
+      "name":"Projeto Universo Spider Man",
+      "image":"", 
+      "descricao": "Projeto do bootcamp Rihappy Front-end do Zero, Ministrado na DIO",
+      "git_url": "https://github.com/luane-loureiro/Universo-SpiderMan",
+      "vercel_url":"https://universo-spider-man.vercel.app",
+      "github": true
+    },
+    { 
+      "name":"LandingPage Mundo Invertido",
+      "image":"", 
+      "descricao": "Projeto do bootcamp Rihappy Front-end do zero, Ministrado na DIO",
+      "git_url": "https://github.com/luane-loureiro/LandingPage-Mundo-invertido",
+      "vercel_url":"https://landing-page-mundo-invertido-eight.vercel.app/",
+      "github": true
+    },
     { 
       "name":"Projeto Pokedex",
       "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/pokedex.png", 
