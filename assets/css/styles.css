@@ -135,6 +135,7 @@ i{
 .menu__item{
     width: 100%;
 }
+
 .menu--mobile{
     width: 100vw;
     position: fixed;
@@ -143,8 +144,7 @@ i{
     border-top: 2px solid var(--border-collor);
     background-color: var(--primary-bg-collor);
     transition: ease-in-out .6s;
-    z-index: 1;
-    
+    z-index: 1;    
 }
 
 .menu--mobile .menu__link{
@@ -186,6 +186,7 @@ i{
 
 .menu--principal, .menu--social{
     gap: 1rem;
+    border: red 1px solid;
 }
 
 .btn {
