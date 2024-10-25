@@ -11,22 +11,22 @@
   "social": [
         {
           "link":"https://www.linkedin.com/in/luane-loureiro",
-          "image":"",
+          "image":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/19925a2fb2696dd13cab42c9bd05b35dcc3a973b/data/icones-bags-svg/social_linkedin-line.svg",
           "name":"Linkedin"
         },
         {
           "link":"https://github.com/luane-loureiro",
-          "image":"",
+          "image":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/19925a2fb2696dd13cab42c9bd05b35dcc3a973b/data/icones-bags-svg/social_github.svg",
           "name": "GitHub"
         },
         {
           "link":"https://www.canva.com/design/DAE6kwWPsx4/jNzlHu44jk31o-x8-CdXjg/view?utm_content=DAE6kwWPsx4&utm_campaign=designshare&utm_medium=link&utm_source=editor",
-          "image":"",
+          "image":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/19925a2fb2696dd13cab42c9bd05b35dcc3a973b/data/icones-bags-svg/Social_portfolio.svg",
           "name":"Portfólio"
         },
         {
           "link":"https://www.canva.com/design/DAFw_gifCuM/-FiI2oz3oOVggI6xir0YDA/view?utm_content=DAFw_gifCuM&utm_campaign=designshare&utm_medium=link&utm_source=editor",
-          "image":"",
+          "image":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/19925a2fb2696dd13cab42c9bd05b35dcc3a973b/data/icones-bags-svg/social_cv.svg",
           "name":"Currículo"
         }
       ],
