@@ -185,8 +185,7 @@ i{
 }
 
 .menu--principal, .menu--social{
-    gap: 1rem;
-    border: red 1px solid;
+    gap: 2rem;
 }
 
 .btn {
@@ -276,10 +275,15 @@ main, .projects{
 }
 
 .projects{
+    display: flex;
+    flex-direction: column;
+
 
 }
 footer {
     margin-bottom: 2rem;
+    flex-direction: column;
+
 }
  
 footer p {

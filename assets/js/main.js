@@ -30,7 +30,7 @@ function updateRedesSociais(profileData) {
     redes.innerHTML = profileData.social.map(rede => `
         <li class="title__network__item">
             <a class="menu__link" href="${rede.link}" target="_blank">
-                <i class="menu__icon bi bi-${rede.image}"></i>
+                <img class="skills__logo" src="${rede.image}" alt="${rede.name}" />
             </a>
         </li>`
 ).join('')
@@ -128,29 +128,37 @@ function updateHobbies(profileData) {
 //     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
 // }
 
-//  function updatePortfolio(profileData) {
-//      const portfolio = document.getElementById('experience__container')
-//      portfolio.innerHTML = profileData.portfolio.map(project => {
-//          return `
-//          <div class="experiencie__box">
-//             <img class="experience__img" src="${project.image}">
-//             <div class="experience__info">
-//                 <h2 class="experience__title">${project.name}</h2>
-//                 <p class="experience__text">${project.descricao}</p>
-//                 <div class="experience__description">
-//                     <span class="experience__repo">
-//                         <a href="${project.git_url}">
-//                             <button class="experiencia__botao--repo">
-//                             Repositório
-//                             </button>
-//                         </a>
-//                     </span>
-//                     <span class="experience__demo"><a href="${project.vercel_url}"><button class="experiencia__botao--demo">Ver demo</button></a></span>
-//                 </div>
-//             </div>
-//         </div> 
-//          `}).join('<br>')
-//  }
+  function updatePortfolio(profileData) {
+      const portfolio = document.getElementById('projects')
+      portfolio.innerHTML = profileData.portfolio.map(project => {
+          return `
+          <div class="project__card">
+             <img class="card__cover" src="${project.image}" alt="${project.name}">
+                 <h3 class="card__title">${project.name}</h3>
+                 <p class="card__description">${project.descricao}</p>
+                 <ul>
+                    <li>
+                        <p>${project.lista}</p>    
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="${project.tecnologias}"/>
+                    </li>
+
+                 <div class="experience__description">
+                     <span class="experience__repo">
+                         <a href="${project.git_url}">
+                             <button class="experiencia__botao--repo">
+                             Repositório                             </button>
+                         </a>
+                     </span>
+                     <span class="experience__demo"><a href="${project.vercel_url}"><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                </div>
+             </div>
+         </div> 
+          `}).join('<br>')
+  }
 
 // function updateProfessionalExperience(profileData) {
 //     const professionalExperience = document.getElementById('job__experience')
@@ -186,6 +194,6 @@ function updateHobbies(profileData) {
     updateHobbies(profileData)
     // updateFormacao(profileData)
     updateCertificacoes(profileData)
-    // updatePortfolio(profileData)
+    updatePortfolio(profileData)
     // updateProfessionalExperience(profileData)
 })()
