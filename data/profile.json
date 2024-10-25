@@ -336,9 +336,18 @@
       "git_url": "https://github.com/luane-loureiro/Universo-SpiderMan",
       "vercel_url":"https://universo-spider-man.vercel.app",
       "tecnologias":[
-        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_html5.svg",
-        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_css3.svg",
-        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_js.svg"
+        {
+          "name":"html5",
+          "logo":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_html5.svg"
+        },
+        {
+          "name":"html5",
+          "logo":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_css3.svg"
+        }, 
+        {
+          "name":"html5",
+          "logo":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_js.svg"
+        }
       ]
     },
     { 

@@ -136,14 +136,14 @@ function updateHobbies(profileData) {
              <img class="card__cover" src="${project.image}" alt="${project.name}">
                  <h3 class="card__title">${project.name}</h3>
                  <p class="card__description">${project.descricao}</p>
-                 <ul>
+                 <ol>
                     <li>
                         ${project.lista}  
                     </li>
-                </ul>
+                </ol>
                 <ul>
                     <li>
-                        <img src="${project.tecnologias}"/>
+                        <img src="${project.tecnologias.logo}"/>
                     </li>
 
                  <div class="experience__description">
