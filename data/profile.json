@@ -322,27 +322,42 @@
   "portfolio": [
     { 
       "name":"Projeto Universo Spider Man",
-      "image":"", 
+      "image":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/Projetos/sp%C3%ADdermam.jpg", 
       "descricao": "Projeto do bootcamp Rihappy Front-end do Zero, Ministrado na DIO",
       "git_url": "https://github.com/luane-loureiro/Universo-SpiderMan",
       "vercel_url":"https://universo-spider-man.vercel.app",
-      "github": true
+      "github": true,
+      "tecnologias":[
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_html5.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_css3.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_js.svg"
+      ]
     },
     { 
       "name":"LandingPage Mundo Invertido",
-      "image":"", 
+      "image":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/Projetos/mundo-invertido.jpg", 
       "descricao": "Projeto do bootcamp Rihappy Front-end do zero, Ministrado na DIO",
       "git_url": "https://github.com/luane-loureiro/LandingPage-Mundo-invertido",
       "vercel_url":"https://landing-page-mundo-invertido-eight.vercel.app/",
-      "github": true
+      "github": true,
+      "tecnologias":[
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_html5.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_css3.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_js.svg"
+      ]
     },
     { 
       "name":"Projeto Pokedex",
-      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/pokedex.png", 
+      "image":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/Projetos/pokedex.jpg", 
       "descricao": "Projeto Final do Curso de Java Script, Ministrado na DIO",
       "git_url": "https://github.com/luane-loureiro/js-developer-pokedex",
       "vercel_url":"https://js-developer-pokedex-lime.vercel.app",
-      "github": true
+      "github": true,
+      "tecnologias":[
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_html5.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_css3.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_js.svg"
+      ]
     },
     {
       "name":"Projeto Detona Ralph Game",
@@ -350,7 +365,12 @@
       "descricao": "Projeto da DIO para a criação de uma Jogo de Click Inspirado em Detonha Ralph",
       "git_url": "https://github.com/luane-loureiro/Detona-Ralph-Game-V0.1",
       "vercel_url":"https://detona-ralph-game-v0-1.vercel.app",
-      "github": true
+      "github": true,
+      "tecnologias":[
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_html5.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_css3.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_js.svg"
+      ]
     },
     {
       "name":"Virtual Piano Project",
@@ -358,15 +378,25 @@
       "descricao": "Projeto da DIO para a criação de uma Piano Virtual",
       "git_url": "https://github.com/luane-loureiro/Piano-virtual",
       "vercel_url":"https://piano-virtual-nine.vercel.app",
-      "github": true
+      "github": true,
+      "tecnologias":[
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_html5.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_css3.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_js.svg"
+      ]
     },
     {
       "name":"Peojeto Jogo da memoria Emoji",
-      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/memoria-emoji.PNG", 
+      "image":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/Projetos/jogo-memoria-emoji.jpg", 
       "descricao": "Projeto da DIO para a criação de uma Jogo da Memória",
       "git_url": "https://github.com/luane-loureiro/Jogo-da-memoria-emoji",
       "vercel_url":"https://jogo-da-memoria-emoji.vercel.app",
-      "github": true
+      "github": true,
+      "tecnologias":[
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_html5.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_css3.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_js.svg"
+      ]
     },
     {
       "name":"YougiOh Game Project",
@@ -374,24 +404,39 @@
       "descricao": "Projeto da DIO para a criação de uma Jogo de Jokenpo inspirado em Yugioh ",
       "git_url": "https://github.com/luane-loureiro/jogo-yugioh",
       "vercel_url":"https://jogo-yugioh.vercel.app",
-      "github": true
+      "github": true,
+      "tecnologias":[
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_html5.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_css3.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_js.svg"
+      ]
     },
     {
       "name":"Jogo do número Secreto",
-      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/numero_secreto.PNG", 
+      "image":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/Projetos/numero-secreto.jpg", 
       "descricao": "Projeto da Alura para a criação de uma Jogo de adivinhação ",
       "git_url": "https://github.com/luane-loureiro/Jogo_do_numero_secreto_2.0",
       "vercel_url":"https://https://numero-secreto-deploy-o3nf59ubl-luane-loureiros-projects.vercel.app/",
-      "github": true
+      "github": true,
+      "tecnologias":[
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_html5.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_css3.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_js.svg"
+      ]
     },
 
     {
       "name":"Alura Fokus",
-      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/alura-fokus.PNG", 
+      "image":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/Projetos/fokus.jpg", 
       "descricao": "Aplicaivo web inspirado no metodo pomodoro, para focar em uma atividade.  Projeto feito durante o boot camp de Front End T6 - ONE O objetivo do projeto é praticar a manipulação de DOM.",
       "git_url": "https://github.com/luane-loureiro/Fokus",
       "vercel_url":"https://fokus-teal-ten.vercel.app",
-      "github": true
+      "github": true,
+      "tecnologias":[
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_html5.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_css3.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_js.svg"
+      ]
     },
     {
       "name":"Alura Mid",
@@ -399,23 +444,40 @@
       "descricao": "Projeto para criar uma bateria digital.  Projeto feito durante o boot camp de Front End T6 - ONE O objetivo do projeto é praticar a manipulação de DOM.",
       "git_url": "https://github.com/luane-loureiro/Projeto-Alura-Mid",
       "vercel_url":"https://projeto-alura-mid-five.vercel.app",
-      "github": true
+      "github": true,
+      "tecnologias":[
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_html5.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_css3.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_js.svg"
+      ]
     },
     {
       "name":"space APP",
-      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/spaceApp.png", 
+      "image":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/Projetos/space-app.jpg", 
       "descricao": "Projeto para criar uma site de imagens do espaço.  Projeto feito durante o boot camp de especialização React T6 - ONE O objetivo do projeto é praticar a estutura de componentes react com vite.",
       "git_url": "https://github.com/luane-loureiro/space-app",
       "vercel_url":"https://space-app-jet.vercel.app/",
-      "github": true
+      "github": true,
+      "tecnologias":[
+          "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_html5.svg",
+          "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_css3.svg",
+          "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_js.svg",
+          "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_react_2.svg"
+        ]
     },
     {
-      "name":"Blog Olá Mundo",
-      "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/blogOlaMundo.png", 
+      "name":"Blog Mundo da Lua",
+      "image":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/Projetos/mundo-da-lua.jpg", 
       "descricao": "Projeto para criar um Blog.  Projeto feito durante o boot de especoalização React T6 - ONE O objetivo do projeto é praticar a estutura de componentes react router dom.",
       "git_url": "https://github.com/luane-loureiro/Alura--ola-mundo",
       "vercel_url":"https://alura-ola-mundo-sandy.vercel.app/",
-      "github": true
+      "github": true,
+      "tecnologias":[
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_html5.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_css3.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_js.svg",
+        "https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_react_2.svg"
+      ]
     }
 
 
