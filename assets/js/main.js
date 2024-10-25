@@ -138,7 +138,7 @@ function updateHobbies(profileData) {
                  <p class="card__description">${project.descricao}</p>
                  <ul>
                     <li>
-                        <p>${project.lista}</p>    
+                        ${project.lista}  
                     </li>
                 </ul>
                 <ul>

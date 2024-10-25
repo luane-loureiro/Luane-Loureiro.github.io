@@ -329,9 +329,9 @@
       "image":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/Projetos/sp%C3%ADdermam.jpg", 
       "descricao": "Projeto do bootcamp Rihappy Front-end do Zero, Ministrado na DIO",
       "lista":[
-        "Carrocel de imagens",
-        "Animações",
-        "Video de fundo"
+        {"Carrocel de imagens"},
+        {"Animações"},
+        {"Video de fundo"}
       ],
       "git_url": "https://github.com/luane-loureiro/Universo-SpiderMan",
       "vercel_url":"https://universo-spider-man.vercel.app",
