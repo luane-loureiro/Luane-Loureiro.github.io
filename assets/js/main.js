@@ -136,24 +136,26 @@ function updateHobbies(profileData) {
              <img class="card__cover" src="${project.image}" alt="${project.name}">
                  <h3 class="card__title">${project.name}</h3>
                  <p class="card__description">${project.descricao}</p>
-                 <ol>
+                 <ul>
                     <li>
-                        ${project.lista}  
+                            ${project.lista.join('<br>')}  
                     </li>
-                </ol>
-                <ul>
-                    <li>
-                        <img src="${project.tecnologias.logo}"/>
-                    </li>
+                </ul>
 
                  <div class="experience__description">
                      <span class="experience__repo">
                          <a href="${project.git_url}">
                              <button class="experiencia__botao--repo">
-                             Repositório                             </button>
+                             Repositório                             
+                             </button>
                          </a>
                      </span>
-                     <span class="experience__demo"><a href="${project.vercel_url}"><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                     <span class="experience__demo"><a href="${project.vercel_url}">
+                     <button class="experiencia__botao--demo">
+                     Ver demo
+                     </button>
+                     </a>
+                     </span>
                 </div>
              </div>
          </div> 
