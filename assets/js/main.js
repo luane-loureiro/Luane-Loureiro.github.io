@@ -141,6 +141,17 @@ function updateHobbies(profileData) {
                             ${project.lista.join('<br>')}  
                     </li>
                 </ul>
+                <ul>
+                    <li>
+                        ${project.tecnologias.map(tecnologias =>{
+                                    return`
+                                        <li class="jobs__item__img">
+                                            <img class="skills__logo" src="${tecnologias.logo}" alt="${tecnologias.name}">
+                                        </li>
+                                    `
+                        })}
+                    </li>
+                </ul>
 
                  <div class="experience__description">
                      <span class="experience__repo">
