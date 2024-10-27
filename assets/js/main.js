@@ -30,7 +30,7 @@ function updateRedesSociais(profileData) {
     redes.innerHTML = profileData.social.map(rede => `
         <li class="title__network__item">
             <a class="menu__link" href="${rede.link}" target="_blank">
-                <img class="skills__logo" src="${rede.image}" alt="${rede.name}" />
+                <img class="network__logo" src="${rede.image}" alt="${rede.name}" />
             </a>
         </li>`
 ).join('')
@@ -131,46 +131,54 @@ function updateHobbies(profileData) {
   function updatePortfolio(profileData) {
       const portfolio = document.getElementById('projects')
       portfolio.innerHTML = profileData.portfolio.map(project => {
-          return `
-          <div class="project__card">
-             <img class="card__cover" src="${project.image}" alt="${project.name}">
-                 <h3 class="card__title">${project.name}</h3>
-                 <p class="card__description">${project.descricao}</p>
-                 <ul>
-                    <li>
-                            ${project.lista.join('<br>')}  
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        ${project.tecnologias.map(tecnologias =>{
-                                    return`
-                                        <li class="jobs__item__img">
-                                            <img class="skills__logo" src="${tecnologias.logo}" alt="${tecnologias.name}">
-                                        </li>
-                                    `
-                        })}
-                    </li>
-                </ul>
+        return `
+            <div class="project__card">
+                <img class="card__cover" src="${project.image}" alt="${project.name}"/>
+                
+                <div class="card__body">
+                <div class="card__text">
+                    <h3 class="card__title">
+                        ${project.name}
+                    </h3>
 
-                 <div class="experience__description">
-                     <span class="experience__repo">
-                         <a href="${project.git_url}">
-                             <button class="experiencia__botao--repo">
-                             Repositório                             
-                             </button>
-                         </a>
-                     </span>
-                     <span class="experience__demo"><a href="${project.vercel_url}">
-                     <button class="experiencia__botao--demo">
-                     Ver demo
-                     </button>
-                     </a>
-                     </span>
+                    <p class="card__description">
+                        ${project.descricao}
+                    </p>
+
+                    <ul class="card__list">
+                        <li>
+                            ${project.lista.join('<br>')}  
+                        </li>
+                    </ul>
+
+                    <ul class="card__tec">
+                        ${project.tecnologias.map(tecnologias =>{
+                            return`
+                                <li>
+                                    <img class="skills__logo" src="${tecnologias.logo}" alt="${tecnologias.name}"/>
+                                </li>
+                            `
+                        }).join("")}
+                    </ul>
+                    </div>
+
+
+                    <div class="card__buttons">
+                        <a href="${project.vercel_url}">
+                            <button class="btn btn--primary">
+                                <span>Prévia</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </button>
+                        </a>
+                        <a href="${project.git_url}"> 
+                            <button class="btn">
+                                <span>repositório</span>
+                            </button>
+                        </a>
+                    </div>
                 </div>
-             </div>
-         </div> 
-          `}).join('<br>')
+            </div>
+        `}).join('<br>')
   }
 
 // function updateProfessionalExperience(profileData) {
