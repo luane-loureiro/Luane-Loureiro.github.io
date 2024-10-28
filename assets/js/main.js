@@ -3,9 +3,9 @@ function updateProfileInfo(profileData) {
     // email.innerText = profileData.email
     // email.href = `mailto:${profileData.email}`
 
-    // const photo = document.getElementById('title__profile')
-    // photo.src = profileData.photo
-    // photo.alt = profileData.name
+    const photo = document.getElementById('foto')
+    photo.src = profileData.photo
+    photo.alt = profileData.name
 
     const name = document.querySelector('.name__profile')
     name.innerText = profileData.name
@@ -13,8 +13,8 @@ function updateProfileInfo(profileData) {
     const job = document.querySelector('.job__profile')
     job.innerText = profileData.job
 
-    // const sobre = document.querySelector('.about__paragraph')
-    // sobre.innerText = profileData.sobre
+    const sobre = document.querySelector('.about__profile')
+    sobre.innerText = profileData.sobre
 
     // const location = document.getElementById('profile.location')
     // location.innerText = profileData.location
@@ -23,6 +23,18 @@ function updateProfileInfo(profileData) {
     // phone.innerText = profileData.phone
     // phone.href = `tel:${profileData.phone}`
 
+}
+
+function updateconect(profileData) {
+    const conect = document.getElementById('conect__profile');
+    const linkedin = profileData.social[0]; // Pega o primeiro elemento
+        conect.innerHTML = `
+            <a class="menu__link" href="${linkedin.link}" target="_blank">
+                <button class="btn btn--primary">
+                    <span>Conecte comigo</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                </button>
+            </a>`
 }
 
 function updateRedesSociais(profileData) {
@@ -95,38 +107,31 @@ function updateHobbies(profileData) {
      `).join('')
  }
 
-//  function updateFormacao(profileData) {
-//     const formacao = document.getElementById('academic__courses')
-//     formacao.innerHTML = profileData.formacao.map(curso => `
-//     <div class="academic__courses__box">
-//         <ul class="academic__courses__list">
-//             <li class="academic__courses__item__img">
-//                 <img src="${curso.logo}" >
-//             </li>
-//             <div class="text">    
-//                 <div class="academic__courses__item__title">
-//                     <h4>${curso.name}</h4>
-//                     <li>
-//                         ${curso.curso}
-//                     </li>
-//                     <li class="academic__courses__item__subtitle">
-//                         <p>
-//                             ${curso.descricao}
-//                         </p>
-//                     </li>
-//                 </div>
-//             </div>
-//         </ul>
-//     </div>
-// `).join('')
-// }
+  function updateFormacao(profileData) {
+     const formacao = document.getElementById('academic__courses')
+     formacao.innerHTML = profileData.formacao.map(curso => `
+            <h4>${curso.curso}</h4>
+                    <div class="about__icons">
+                        <i class="bi bi-bank"></i>
+                        <span>
+                            ${curso.name}
+                        </span>
+                    </div>
+                    <div class="about__icons">
+                        <i class="bi bi-mortarboard"></i>
+                        <span>${curso.descricao}</span>
+                    </div>
+
+
+ `).join('<br><br>')
+}
 
 
 
-// function updateLanguages(profileData) {
-//     const languages = document.getElementById('profile.languages')
-//     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
-// }
+function updateLanguages(profileData) {
+    const languages = document.getElementById('lang__profile')
+    languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
+ }
 
   function updatePortfolio(profileData) {
       const portfolio = document.getElementById('projects')
@@ -181,40 +186,41 @@ function updateHobbies(profileData) {
         `}).join('<br>')
   }
 
-// function updateProfessionalExperience(profileData) {
-//     const professionalExperience = document.getElementById('job__experience')
-//     professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
-//         return `
-//         <div class="jobs__box">
-//         <di class="jobs__list">
-//             <li class="jobs__item__img">
-//                 <img src="${experience.logo}" ></li>
-//             <div class="text">    
-//                 <li class="jobs__item__title">
-//                     <h4 class="title">
-//                         ${experience.name}
-//                     </h4>
-//                 </li>
-//                 <li class="jobs__item__subtitle">
-//                 <h4 class="date">${experience.period}</h4>
-//                 <p class="description">${experience.description.join('<br><br>')}</p>
-//                 </li>
-//             </div>
-//         </di>
-//     </div>
-//     <br><br>
-//         `}).join('')
-//     }
+
+
+
+
+function updateProfessionalExperience(profileData) {
+     const professionalExperience = document.getElementById('experience')
+     professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
+         return `
+            <div class="experiende__list">  
+                    <h2 class="experience__title">
+                        ${experience.name}
+                    </h2>
+                    <h5 class="date">
+                        ${experience.period}
+                    </h5>
+
+                    <li class="experience__list">
+                        <p class="description">${experience.description.join('<br>')}</p>
+                    </li>
+            </div>
+
+         `}).join('<br><br>')
+     }
 
 (async () => {
     const profileData = await fetchProfileData()
+    updateconect(profileData)
     updateProfileInfo(profileData)
+    updateLanguages(profileData)
     updateRedesSociais(profileData)
     updateHardSkills(profileData)
     updateSoftSkills(profileData)
     updateHobbies(profileData)
-    // updateFormacao(profileData)
     updateCertificacoes(profileData)
     updatePortfolio(profileData)
-    // updateProfessionalExperience(profileData)
+    updateFormacao(profileData)
+    updateProfessionalExperience(profileData)
 })()
