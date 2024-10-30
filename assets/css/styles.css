@@ -24,7 +24,6 @@
     --link-color: #66496F;
     --icon-color: #866F8D;
 }
-
 html[data-theme='light'] .brand__logo{
     filter: invert(20%) sepia(11%) saturate(2833%) hue-rotate(241deg) brightness(99%) contrast(84%);
 }
@@ -459,6 +458,12 @@ footer p {
     .projects, .about {
         padding: 10rem 6rem 4rem 6rem;
       }
+    
+      .experience__title {
+        font-size: 1.5rem;
+        font-weight: 400;
+      }
+
 }
 @media (min-width:1200px) {
 
@@ -499,8 +504,6 @@ footer p {
         font-size: 1,5rem;
     }
 
-
-
     .skills{
         flex-direction: row;
         justify-content: space-between;
@@ -510,14 +513,11 @@ footer p {
     .skills h2, .certificacao h2 {
         font-size: 3rem;
         width: 55%;
-        padding-bottom: 3rem;
-        
-        }
-    
+        padding-bottom: 3rem;    
+    }
 
     .skills__item{
         width: 10rem;
-
     }
 
     .skills__nome{
@@ -552,8 +552,6 @@ footer p {
 
     .card_body{
         width: 100vw;
-
-
     }
 
     .card__body .card__buttons {
@@ -565,6 +563,14 @@ footer p {
 
     .card__body .card__buttons .btn {
         width:20vw;
+    }
+
+    .about__content__1, .about__content__2{
+        display: grid;
+        grid-template-columns: 34% 60%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 4rem;
     }
 }
 

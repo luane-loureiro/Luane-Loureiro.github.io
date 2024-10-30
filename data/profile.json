@@ -203,7 +203,9 @@
       "curso":"Game Design: Art and Concepts Specialization",
       "descricao": "Em andamento - CALARTS",
       "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/calarts.png"
-    },
+    }
+  ],
+  "cursos":[
     {
       "name":"Escola da Nuvem",
       "curso":"Fundamentos em Tecnologia e Computação na Nuvem",
@@ -318,7 +320,7 @@
 
   "languages": [
     "Português BR (Nativo)",
-    "Inglês (intermediário)",
+    "Inglês (Avançado)",
     "Japonês (Básico)"
   ],
 

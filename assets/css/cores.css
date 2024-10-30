@@ -1,0 +1,22 @@
+:root, :root[data-theme='dark']{
+    --primary-collor: #fdfaff;
+    --primary-bg-collor: #382B3C;
+    --secondary-bg-collor: #563560;
+    --border-collor: #66496F;
+    --title-color: #E1CDED;
+    --text-color: #E1CDED;
+    --link-color: #866F8D;
+    --icon-color:#C390E1;
+    
+}
+
+:root[data-theme='light']{
+    --primary-collor: #382B3C;
+    --primary-bg-collor: #E1CDED;
+    --secondary-bg-collor: #E6D7EF;
+    --border-collor: #EBE1F1;
+    --title-color: #382B3C;
+    --text-color: #563560;
+    --link-color: #66496F;
+    --icon-color: #866F8D;
+}

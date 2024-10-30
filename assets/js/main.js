@@ -42,7 +42,7 @@ function updateRedesSociais(profileData) {
     redes.innerHTML = profileData.social.map(rede => `
         <li class="title__network__item">
             <a class="menu__link" href="${rede.link}" target="_blank">
-                <img class="network__logo" src="${rede.image}" alt="${rede.name}" />
+                <img class="skills__logo" src="${rede.image}" alt="${rede.name}" />
             </a>
         </li>`
 ).join('')
@@ -107,9 +107,9 @@ function updateHobbies(profileData) {
      `).join('')
  }
 
-  function updateFormacao(profileData) {
-     const formacao = document.getElementById('academic__courses')
-     formacao.innerHTML = profileData.formacao.map(curso => `
+function updateFormacao(profileData) {
+    const formacao = document.getElementById('academic__courses')
+    formacao.innerHTML = profileData.formacao.map(curso => `
             <h4>${curso.curso}</h4>
                     <div class="about__icons">
                         <i class="bi bi-bank"></i>
@@ -124,6 +124,27 @@ function updateHobbies(profileData) {
 
 
  `).join('<br><br>')
+}
+
+function updateCourses(profileData) {
+    const courses = document.getElementById('courses')
+    courses.innerHTML = profileData.courses.map(curso => `
+        <div class="acordion__item">
+            <button class="acordion__header">
+                <span>${curso.curso}</span>
+                <i class="bi bi-caret-down-fill"></i>                            
+            </button>
+        </div>
+        <div class="acordion__body">
+            <p>
+                ${curso.name}
+            </p>
+            <p>
+                ${curso.descricao}
+            </p>
+        </div>
+
+`).join('<br><br>')
 }
 
 
