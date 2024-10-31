@@ -127,26 +127,20 @@ function updateFormacao(profileData) {
 }
 
 function updateCourses(profileData) {
-    const courses = document.getElementById('courses')
-    courses.innerHTML = profileData.courses.map(curso => `
-        <div class="acordion__item">
-            <button class="acordion__header">
-                <span>${curso.curso}</span>
-                <i class="bi bi-caret-down-fill"></i>                            
-            </button>
-        </div>
-        <div class="acordion__body">
-            <p>
-                ${curso.name}
-            </p>
-            <p>
-                ${curso.descricao}
-            </p>
-        </div>
-
-`).join('<br><br>')
-}
-
+    const courses = document.querySelector('.courses')
+    courses.innerHTML = profileData.cursos.map(courses => `
+        <details class="accordion__item">
+            <summary class="accordion__header">
+                <p>${courses.curso}</p>
+                <i class="bi bi-caret-down-fill"></i>
+            </summary>
+            <div class="accordion__body">
+                <p>${courses.name}</p>
+                <p>carga horaria</p>
+                <p>${courses.descricao}</p>
+            </div>
+        </details>
+`).join('')}
 
 
 function updateLanguages(profileData) {
@@ -205,10 +199,9 @@ function updateLanguages(profileData) {
                 </div>
             </div>
         `}).join('<br>')
+
+        
   }
-
-
-
 
 
 function updateProfessionalExperience(profileData) {
@@ -243,5 +236,7 @@ function updateProfessionalExperience(profileData) {
     updateCertificacoes(profileData)
     updatePortfolio(profileData)
     updateFormacao(profileData)
+    updateCourses(profileData)
     updateProfessionalExperience(profileData)
+
 })()

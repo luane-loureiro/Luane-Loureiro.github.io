@@ -16,8 +16,8 @@
 
 :root[data-theme='light']{
     --primary-collor: #382B3C;
-    --primary-bg-collor: #E1CDED;
-    --secondary-bg-collor: #E6D7EF;
+    --primary-bg-collor: #E6D7EF;
+    --secondary-bg-collor: #E1CDED;
     --border-collor: #EBE1F1;
     --title-color: #382B3C;
     --text-color: #563560;
@@ -360,7 +360,7 @@ main, .projects,  .about, .contact{
     gap: 1.5rem;
   }
   
-  .about__content__1, .about__content__2 {
+.about__content__1, .about__content__2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -368,7 +368,7 @@ main, .projects,  .about, .contact{
     gap: 2rem;
   }
   
-  .about__photo {
+.about__photo {
     width: 100%;
     object-fit: cover;
     object-position: center;
@@ -378,35 +378,87 @@ main, .projects,  .about, .contact{
     
   }
   
-  .about__description {
+.about__description {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     gap: 1.5rem;
   }
   
-  .about__icons {
+.about__icons {
     display: flex;
     align-items: center;
     gap: .85rem;
   }
   
-  .about__icons i {
+.about__icons i {
     font-size: 2.5rem;
   }
 
-  .description {
+.description {
     font-size: 1rem;
   }
 
-  .experience__title {
+.experience__title {
     font-weight: 400;
   }
 
-  .experience__list {
+.experience__list {
     font-weight: 350;
   }
 
+.courses {
+    border-radius: .5rem;
+}
+
+.accordion__item{
+    display: flex;
+    margin-bottom: .75rem
+
+}
+
+  .accordion__header {
+    width: 100%;
+    display: flex;
+    padding: 0.75rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    border: 1px solid var(--icon-color);
+    border-radius: .5rem .5rem 0 0;
+    background: var(--secondary-bg-collor);
+    text-align: left;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+    gap: 1rem
+  }
+
+
+  .accordion__body {
+    display: flex;
+    padding: 1.25rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border: 1px solid var(--icon-color);
+    border-radius: 0 0 .5rem .5rem;
+    }
+
+    .accordion__body p{
+        font-size: 1rem;
+    }
+    .accordion__item summary {
+        list-style: none; /
+    }
+    
+    .accordion__item summary i {
+        display: inline-block;
+        transition: transform 0.3s ease; 
+    }
+    
+    .accordion__item[open] summary i {
+        transform: rotate(180deg);
+    }
 
 
 
