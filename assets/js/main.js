@@ -155,8 +155,8 @@ function updateCourses(profileData) {
             </summary>
             <div class="accordion__body">
                 <h4>${courses.curso}</h4>
-                <p>carga horaria: ${courses.carga}</p>
                 <p>${courses.descricao}</p>
+                <p>carga horaria: ${courses.carga}</p>
                 <p>Conclusão: ${courses.conclusao} </p>
             </div>
         </details>
