@@ -150,13 +150,14 @@ function updateCourses(profileData) {
     courses.innerHTML = profileData.cursos.map(courses => `
         <details class="accordion__item">
             <summary class="accordion__header">
-                <p>${courses.curso}</p>
+                <p>${courses.name}</p>
                 <i class="bi bi-caret-down-fill"></i>
             </summary>
             <div class="accordion__body">
-                <p>${courses.name}</p>
-                <p>carga horaria</p>
+                <h4>${courses.curso}</h4>
+                <p>carga horaria: ${courses.carga}</p>
                 <p>${courses.descricao}</p>
+                <p>Conclusão: ${courses.conclusao} </p>
             </div>
         </details>
 `).join('')}
