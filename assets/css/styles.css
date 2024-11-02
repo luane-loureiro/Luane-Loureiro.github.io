@@ -327,6 +327,7 @@ main, .projects,  .about, .contact{
     display: flex;
     flex-direction: column;
     font-weight: 200;
+    padding-right: 2rem;
     gap: 1rem;
     width: 100%;
 }
@@ -384,6 +385,12 @@ main, .projects,  .about, .contact{
     justify-content: flex-start;
     gap: 1.5rem;
   }
+
+.about__icons__box{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
   
 .about__icons {
     display: flex;
@@ -417,7 +424,7 @@ main, .projects,  .about, .contact{
 
 }
 
-  .accordion__header {
+.accordion__header {
     width: 100%;
     display: flex;
     padding: 0.75rem 1rem;
@@ -434,7 +441,7 @@ main, .projects,  .about, .contact{
   }
 
 
-  .accordion__body {
+.accordion__body {
     display: flex;
     padding: 1.25rem;
     flex-direction: column;
@@ -444,27 +451,44 @@ main, .projects,  .about, .contact{
     border-radius: 0 0 .5rem .5rem;
     }
 
-    .accordion__body p{
+.accordion__body p{
         font-size: 1rem;
     }
-    .accordion__item summary {
+.accordion__item summary {
         list-style: none;
     }
     
-    .accordion__item summary i {
+.accordion__item summary i {
         display: inline-block;
         transition: transform 0.3s ease; 
     }
     
-    .accordion__item[open] summary i {
+.accordion__item[open] summary i {
         transform: rotate(180deg);
     }
 
-    .accordion__item[open] .accordion__header{
+.accordion__item[open] .accordion__header{
         border-radius: .5rem .5rem 0 0;
         transition: 0;
     }
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 
+.contact_network {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact img {
+    width: 2.5rem;
+}
+
+.contact i{
+    font-size: 1.5rem;
+}
 
 
 
@@ -487,34 +511,38 @@ footer p {
         padding: 1rem 20rem;
         background: var(--secondary-bg-collor);
         z-index: 1;
-      }
-      .nav--mobile {
+    }
+
+    .nav--mobile {
         display: none;
-      }
+    }
     
-      .header__nav {
+    .header__nav {
         display: flex;
         justify-content: right;
-        width: 70%;
-
-      }
+    width: 70%;
+    }
     
-      .header__toggle {
-        min-width: 5%;
-        
-      }
+    .header__toggle {
+        min-width: 5%;  
+    }
     
-      h1 {
+    h1 {
         font-size: 5rem;
-      }
+    }
     
-      h2 {
+    h2 {
         font-size: 3rem;
-      }
+    }
     
     .projects, .about {
         padding: 10rem 6rem 4rem 6rem;
-      }
+    }
+
+    .contact {
+        padding: 0rem 6rem 4rem 6rem
+    }
+
     
       .experience__title {
         font-size: 1.5rem;
@@ -522,6 +550,50 @@ footer p {
       }
 
 }
+
+
+@media (min-width: 992px) {
+    .projects__card {
+      flex-direction: row;
+    }
+  
+    .projects__card.card--reverse {
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
+    
+    .card__cover {
+      width: 55%;
+    }
+  
+    .about {
+      gap: 5rem;
+    }
+  
+    .about__content1, .about__content2 {
+      display: grid;
+      grid-template-columns: 34% 60%;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 4rem;
+    }
+  
+    .about__description h2 {
+      text-align: left;
+    }
+  
+    .description__buttons {
+      justify-content: flex-start;
+    }
+  }
+
+  .contact_network {
+    display: flex;
+    justify-content:flex-start;
+    gap: 3rem;
+}
+
+  
 @media (min-width:1200px) {
 
     h2 {
@@ -534,6 +606,7 @@ footer p {
     
     main {
         padding: 12rem 20rem 2rem;
+
     }
 
     .header {

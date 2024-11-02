@@ -1,7 +1,11 @@
 function updateProfileInfo(profileData) {
-    // const email = document.getElementById('profile.email')
-    // email.innerText = profileData.email
-    // email.href = `mailto:${profileData.email}`
+    const email = document.getElementById('email')
+    email.innerHTML = `
+         <button class="btn btn--primary">
+            <i class="bi bi-envelope-fill"></i>
+            <p id="email">${profileData.email}</p>
+          </button>`
+    email.href = `mailto:${profileData.email}`
 
     const photo = document.getElementById('foto')
     photo.src = profileData.photo
@@ -16,12 +20,16 @@ function updateProfileInfo(profileData) {
     const sobre = document.querySelector('.about__profile')
     sobre.innerText = profileData.sobre
 
-    // const location = document.getElementById('profile.location')
-    // location.innerText = profileData.location
+    const location = document.getElementById('profile.location')
+    location.innerText = profileData.location
 
-    // const phone = document.getElementById('profile.phone')
-    // phone.innerText = profileData.phone
-    // phone.href = `tel:${profileData.phone}`
+    const phone = document.getElementById('profile.phone')
+    phone.innerHTML = `
+         <button class="btn btn--primary">
+            <i class="bi bi-telephone-fill"></i>
+            <p id="email">${profileData.phone}</p>
+          </button>`
+    phone.href = `tel:${profileData.phone}`
 
 }
 
@@ -39,6 +47,17 @@ function updateconect(profileData) {
 
 function updateRedesSociais(profileData) {
     const redes = document.getElementById('title__network')
+    redes.innerHTML = profileData.social.map(rede => `
+        <li class="title__network__item">
+            <a class="menu__link" href="${rede.link}" target="_blank">
+                <img class="skills__logo" src="${rede.image}" alt="${rede.name}" />
+            </a>
+        </li>`
+).join('')
+}
+
+function updateContact(profileData) {
+    const redes = document.getElementById('contact_network')
     redes.innerHTML = profileData.social.map(rede => `
         <li class="title__network__item">
             <a class="menu__link" href="${rede.link}" target="_blank">
@@ -238,5 +257,6 @@ function updateProfessionalExperience(profileData) {
     updateFormacao(profileData)
     updateCourses(profileData)
     updateProfessionalExperience(profileData)
+    updateContact(profileData)
 
 })()
