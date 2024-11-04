@@ -1,12 +1,12 @@
 {
   "name": "Luane Loureiro",
-  "photo": "https://avatars.githubusercontent.com/u/100947092?v=4",
+  "photo": "https://github.com/luane-loureiro.png",
   "job": "Front-End Developer JR",
   "location": "Rio de Janeiro / RJ",
   "phone": "(21) 99473-6215",
   "email": "luachan@gmail.com",
 
-  "sobre": "Sou vidrada em comunicação visual e tecnologia, estudei na escola de belas artes da UFRJ e Desenho industrial na universidade Estácio de Sá, com bolsa integral.  Atualmente tenho minha própria empresa com marca registrada no INPI, onde eu sou responsavel pelo site e toda a parte de Design.  Depois de anos a frente da minha empresa, busco novos desafios na área de Design, Games e tecnologia.  Nos tempos livres gosto de ler, jogar video game, desenhar e Faço aulas de Balé.",
+  "sobre": "Sou vidrada em comunicação visual e tecnologia, estudei na escola de belas artes da UFRJ e Desenho industrial na universidade Estácio de Sá, com bolsa integral.  Atualmente tenho minha própria empresa com marca registrada no INPI, onde eu sou responsavel pelo site e toda a parte de Design.  Depois de anos a frente da minha empresa, busco novos desafios na área de Design, Games e tecnologia.  Nos tempos livres gosto de ler, jogar video game e desenhar.",
 
   "social": [
         {
@@ -144,7 +144,7 @@
         "logo":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_moraleetica.svg"
       },
       {
-        "name":"Perceverença",
+        "name":"Perseverança",
         "logo":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/icones-bags-svg/new_perceveranca.svg"
       }
 
@@ -157,7 +157,7 @@
         "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_books.svg"
       },
       {
-        "name":"dançar",
+        "name":"Dançar",
         "logo":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/data/icones-bags-svg/new_dance.svg"
       },
       {
@@ -479,7 +479,7 @@
     {
       "name":"Projeto Detona Ralph Game",
       "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/detona.jpg", 
-      "descricao": "Projeto da DIO para a criação de uma Jogo de Click Inspirado em Detonha Ralph",
+      "descricao": "Projeto da DIO para a criação de um Jogo de Click Inspirado em Detona Ralph",
       "lista":[
         "- Timer",
         "- contagem de pontos"
@@ -504,10 +504,10 @@
     {
       "name":"Virtual Piano Project",
       "image":"https://raw.githubusercontent.com/luane-loureiro/challenge-one-portfolio-br/master/assets/img/piano.jpg", 
-      "descricao": "Projeto da DIO para a criação de uma Piano Virtual",
+      "descricao": "Projeto da DIO para a criação de um Piano Virtual",
       "lista":[
         "- Barra de Volume",
-        "- Aivar ou desativar nome das notas"
+        "- Ativar ou desativar nome das notas"
       ],
       "git_url": "https://github.com/luane-loureiro/Piano-virtual",
       "vercel_url":"https://piano-virtual-nine.vercel.app",
@@ -527,9 +527,9 @@
       ]
     },
     {
-      "name":"Peojeto Jogo da memoria Emoji",
+      "name":"Peojeto Jogo da Memória Emoji",
       "image":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/Projetos/jogo-memoria-emoji.jpg", 
-      "descricao": "Projeto da DIO para a criação de uma Jogo da Memória",
+      "descricao": "Projeto da DIO para a criação de um Jogo da Memória",
       "lista":[
         "- Animações",
         "- New Game"
@@ -582,10 +582,10 @@
       "image":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/Projetos/numero-secreto.jpg", 
       "descricao": "Projeto da Alura para a criação de uma Jogo de adivinhação ",
       "lista":[
-        "- Nunero secreto Aleaório",
-        "- Alertas de Numero repetido",
+        "- Núnero secreto Aleaório",
+        "- Alertas de Número repetido",
         "- Página de Vitória",
-        "- contagem de Numero Tentativas"
+        "- Contagem de Numero Tentativas"
 
       ],
       "git_url": "https://github.com/luane-loureiro/Jogo_do_numero_secreto_2.0",
@@ -609,10 +609,10 @@
     {
       "name":"Alura Fokus",
       "image":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/Projetos/fokus.jpg", 
-      "descricao": "Aplicaivo web inspirado no metodo pomodoro, para focar em uma atividade.  Projeto feito durante o boot camp de Front End T6 - ONE O objetivo do projeto é praticar a manipulação de DOM.",
+      "descricao": "Aplicativo web inspirado no método pomodoro, para focar em uma atividade.  Projeto feito durante o boot camp de Front End T6 - ONE O objetivo do projeto é praticar a manipulação de DOM.",
       "lista":[
         "- Contagem Regreciva",
-        "- Selecionar o tempo de Descanço ou Foco"
+        "- Selecionar o tempo de Descanso ou Foco"
       ],
       "git_url": "https://github.com/luane-loureiro/Fokus",
       "vercel_url":"https://fokus-teal-ten.vercel.app",
@@ -637,7 +637,7 @@
       "descricao": "Projeto para criar uma bateria digital.  Projeto feito durante o boot camp de Front End T6 - ONE O objetivo do projeto é praticar a manipulação de DOM.",
       "lista":[
         "- Som dos instrumentos",
-        "- mudança de cor da tecla ativa"
+        "- Mudança de cor da tecla ativa"
       ],
       "git_url": "https://github.com/luane-loureiro/Projeto-Alura-Mid",
       "vercel_url":"https://projeto-alura-mid-five.vercel.app",
@@ -659,7 +659,7 @@
     {
       "name":"space APP",
       "image":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/Projetos/space-app.jpg", 
-      "descricao": "Projeto para criar uma site de imagens do espaço.  Projeto feito durante o boot camp de especialização React T6 - ONE O objetivo do projeto é praticar a estutura de componentes react com vite.",
+      "descricao": "Projeto para criar um site de imagens do espaço, feito durante o boot camp de especialização React T6 - ONE O objetivo do projeto é praticar a estutura de componentes react com vite.",
       "lista":[
         "- Modal",
         "- Favoritos",
@@ -689,7 +689,7 @@
     {
       "name":"Blog Mundo da Lua",
       "image":"https://raw.githubusercontent.com/luane-loureiro/Luane-Loureiro.github.io/refs/heads/main/data/Projetos/mundo-da-lua.jpg", 
-      "descricao": "Projeto para criar um Blog.  Projeto feito durante o boot de especoalização React T6 - ONE O objetivo do projeto é praticar a estutura de componentes react router dom.",
+      "descricao": "Projeto para criar um Blog.  Projeto feito durante o bootcamp de especialização React T6 - ONE. O objetivo do projeto é praticar a estutura de componentes react router dom.",
       "lista":[
         "- Componentes React",
         "- Rotas",
