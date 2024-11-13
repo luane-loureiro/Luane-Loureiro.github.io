@@ -3,42 +3,41 @@
 
 
 :root, :root[data-theme='dark']{
-    --primary-collor: #F6F6FC;
-    --primary-bg-collor: #18333B;
-    --secondary-bg-collor: #2F474E;
-    --border-collor: #4191A8;
-    --title-color: #77AFC0;
-    --text-color: #DCE7EA;
-    --link-color: #DCE7EA;
-    --icon-color:#4191A8;
+    --primary-collor: #FAD493;
+    --primary-bg-collor: #1B1E3E;
+    --secondary-bg-collor: #1D3052;
+    --border-collor: #FAD493;
+    --title-color: #FAD493;
+    --text-color: #E3C170;
+    --link-color: #E3C170;
+    --icon-color:#FAD493;
     
 }
 
 :root[data-theme='light']{
-    --primary-collor: #08161A;
-    --primary-bg-collor: #E9EEF0;
-    --secondary-bg-collor: #D0E0E6;
-    --border-collor: #4191A8;
-    --title-color: #2F474E;
-    --text-color: #18333B;
-    --link-color: #18333B;
-    --icon-color: #4191A8;
+    --primary-collor: #1B1E3E;
+    --primary-bg-collor: #f9e6c6;
+    --secondary-bg-collor: #FAD493;
+    --border-collor: #1D3052;
+    --title-color: #1D3052;
+    --text-color: #1B1E3E;
+    --link-color: #1B1E3E;
+    --icon-color: #37596E;
 }
 html[data-theme='light'] .brand__logo{
-    filter: invert(25%) sepia(43%) saturate(320%) hue-rotate(147deg) brightness(90%) contrast(94%);
+    filter: invert(11%) sepia(26%) saturate(1463%) hue-rotate(197deg) brightness(92%) contrast(96%);
 }
 
 html[data-theme='dark'] .brand__logo{
-    filter: invert(95%) sepia(1%) saturate(6219%) hue-rotate(183deg) brightness(105%) contrast(83%);
+    filter: invert(88%) sepia(29%) saturate(693%) hue-rotate(327deg) brightness(102%) contrast(96%);
 }
 
 html[data-theme='dark'] .skills__logo, .network__logo{
-    filter: invert(47%) sepia(7%) saturate(3164%) hue-rotate(147deg) brightness(106%) contrast(88%);
+    filter: invert(85%) sepia(39%) saturate(483%) hue-rotate(331deg) brightness(101%) contrast(96%);
 }
 
 html[data-theme='light'] .skills__logo, .network__logo{
-    filter: invert(47%) sepia(7%) saturate(3164%) hue-rotate(147deg) brightness(106%) contrast(88%);
-}
+    filter: invert(31%) sepia(28%) saturate(642%) hue-rotate(159deg) brightness(94%) contrast(92%);}
 
 
 
