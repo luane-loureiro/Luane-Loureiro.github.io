@@ -1,204 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
-
-:root, :root[data-theme='dark']{
-    --primary-collor: #FAD493;
-    --primary-bg-collor: #1B1E3E;
-    --secondary-bg-collor: #1D3052;
-    --border-collor: #FAD493;
-    --title-color: #FAD493;
-    --text-color: #E3C170;
-    --link-color: #E3C170;
-    --icon-color:#FAD493;
-    
-}
-
-:root[data-theme='light']{
-    --primary-collor: #1B1E3E;
-    --primary-bg-collor: #f9e6c6;
-    --secondary-bg-collor: #FAD493;
-    --border-collor: #1D3052;
-    --title-color: #1D3052;
-    --text-color: #1B1E3E;
-    --link-color: #1B1E3E;
-    --icon-color: #37596E;
-}
-html[data-theme='light'] .brand__logo{
-    filter: invert(11%) sepia(26%) saturate(1463%) hue-rotate(197deg) brightness(92%) contrast(96%);
-}
-
-html[data-theme='dark'] .brand__logo{
-    filter: invert(88%) sepia(29%) saturate(693%) hue-rotate(327deg) brightness(102%) contrast(96%);
-}
-
-html[data-theme='dark'] .skills__logo, .network__logo{
-    filter: invert(85%) sepia(39%) saturate(483%) hue-rotate(331deg) brightness(101%) contrast(96%);
-}
-
-html[data-theme='light'] .skills__logo, .network__logo{
-    filter: invert(31%) sepia(28%) saturate(642%) hue-rotate(159deg) brightness(94%) contrast(92%);}
-
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    vertical-align: baseline;
-    list-style: none;
-    color: var(--text-color);
-}
-
-body{
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--primary-bg-collor);
-    font-family:'Inter', Tahoma, Geneva, Verdana, sans-serif;
-    transition: ease-in-out .6s;
-
-}
-
-a {
-    text-decoration: none;
-
-}
-
-a:hover{
-    color: var(--primary-collor);
-    font-weight: 600;
-    cursor: pointer;
-}
-
-b{
-    font-weight: 400;
-}
-
-h1, h2, h3 {
-    font-family: 'League Spartan', Tahoma, Geneva, Verdana, sans-serif;
-    text-transform: uppercase;
-    font-weight: 200;
-}
-
-h1{
-    font-size: 2.5rem;
-    color: var(--title-color);
-}
-
-.projects h2{
-    font-size: 2rem;
-    text-align: center;
-    padding-bottom: 1rem;
-}
-
-h3{
-    font-size: 2rem;
-    padding: 3rem 0 1.5rem 0;
-   
-}
-
-h5 {
-    font-size: 1rem;
-    font-weight: 200;
-    padding-bottom: 1rem;
-}
-
-p{
-    font-size: 1.25rem;
-    text-align: justify;
-}
-
-i{
-    color: var(--icon-color);
-}
-
-.header{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding:  1rem;
-}
-
-.header__toggle{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.header__brand .brand__logo {
-    width: 10rem;
-
-}
-
-#toggleTheme{
-    font-size: 1.8rem;
-    color: var(--primary-collor);
-    cursor: pointer;
-    transition: ease-in-out .6s;
-}
-
-.menu {
-    display: flex;
-    align-items: center;
-}
-
-.menu__item{
-    width: 100%;
-}
-
-.menu--mobile{
-    width: 100vw;
-    position: fixed;
-    bottom: 0;
-    justify-content: space-between;
-    border-top: 2px solid var(--border-collor);
-    background-color: var(--primary-bg-collor);
-    transition: ease-in-out .6s;
-    z-index: 1;    
-}
-
-.menu--mobile .menu__link{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: .5rem 1rem;
-    gap: .5rem;
-
-}
-
-.menu__icon, .menu__text {
-    color: var(--icon-color)
-}
-
-.menu__link.active .menu__icon,
- .menu__link.active .menu__text, 
- .menu__link:hover .menu__icon, 
- .menu__link:hover .menu__text{
-    color: var(--primary-collor);
-    font-weight: 600;
-    transition: ease-in-out .6s;
-
-}
-
-.menu__icon {
-    font-size: 1.5rem;
-}
-
-.menu__text {
-    font-size: 0.75rem;
-    text-transform: uppercase;
-}
-
-.header__nav{
-    display: none;
-}
-
-.menu--principal, .menu--social{
-    gap: 2rem;
-}
 
 .network__logo {
     width: 3rem;
@@ -213,7 +13,7 @@ i{
     background: transparent;
     border-radius: 3.125rem;
     border: none;
-    padding: 0.87rem 1rem;
+    padding: .85rem 1rem;
     transition: ease-in-out .3s;
     cursor: pointer;
     color: var(--primary-collor);
@@ -225,7 +25,7 @@ i{
 }
 
 .btn--primary {
-    border: 1px solid var(--primary-collor);
+    border: 2px solid var(--primary-collor);
 }
 
 .btn--primary span{
@@ -252,7 +52,6 @@ main, .projects,  .about, .contact{
     justify-content: center;
     padding: 3rem 1rem;
     gap: 3rem;
-
 }
 
 .skills h2, .certificacao h2{
@@ -278,7 +77,6 @@ main, .projects,  .about, .contact{
     text-align: center;
     width: 6rem;
     gap:1rem
-
 }
 
 .skills__logo {
@@ -295,17 +93,20 @@ main, .projects,  .about, .contact{
 }
 
 .projects{
+    width: 100vw;
     display: flex;
     flex-direction: column;
-
-    
+    align-items: center;
+    justify-items: center ;
+    padding: 3rem 0; 
 }
 
 .project__card{
     display:flex;
     flex-direction: column;
+    width: 70vw;
     gap: 2rem;
-    padding: 1.5rem;
+    padding: 3rem;
     background-color: var(--secondary-bg-collor);
     border-radius: 1rem;
 }
@@ -322,6 +123,7 @@ main, .projects,  .about, .contact{
     flex-direction: column;
     justify-content: space-between;
 }
+
 .card__text{
     display: flex;
     flex-direction: column;
@@ -330,6 +132,7 @@ main, .projects,  .about, .contact{
     gap: 1rem;
     width: 100%;
 }
+
 .card__title {
     font-size: 1.5rem;
     font-weight:400;
@@ -503,37 +306,7 @@ footer p {
     margin-bottom: 5rem;
 }
 
-@media (min-width:768px) {
-    .header {
-        position: fixed;
-        border-bottom: 1px solid var(--primary-border-color);
-        padding: 1rem 20rem;
-        background: var(--secondary-bg-collor);
-        z-index: 1;
-    }
-
-    .nav--mobile {
-        display: none;
-    }
-    
-    .header__nav {
-        display: flex;
-        justify-content: right;
-    width: 70%;
-    }
-    
-    .header__toggle {
-        min-width: 5%;  
-    }
-    
-    h1 {
-        font-size: 5rem;
-    }
-    
-    h2 {
-        font-size: 3rem;
-    }
-    
+@media (min-width:768px) {  
     .projects, .about {
         padding: 10rem 6rem 4rem 6rem;
     }
@@ -543,7 +316,7 @@ footer p {
     }
 
     
-      .experience__title {
+    .experience__title {
         font-size: 1.5rem;
         font-weight: 400;
       }
@@ -593,44 +366,9 @@ footer p {
 }
 
   
-@media (min-width:1200px) {
-
-    h2 {
-        font-size: 4rem;
-    }
-    
-    h3 {
-        font-size: 2.5rem;
-    }
-    
-    main {
-        padding: 12rem 20rem 2rem;
-
-    }
-
-    .header {
-        padding: 1rem 20rem;
-    }
-
-    .header__brand .brand__logo {
-        width: 15vw;  
-    }
-    .menu--principal{
-        display: flex;
-        justify-content:end;
-
-    }
-
-    .menu__text {
-        font-size: 1rem;
-    }
-    
+@media (min-width:1200px) {   
     .main__content1 .btn {
         width: 20rem;
-    }
-  
-    p,  i{
-        font-size: 1,5rem;
     }
 
     .skills{
@@ -691,7 +429,7 @@ footer p {
     }
 
     .card__body .card__buttons .btn {
-        width:20vw;
+        width:12vw;
     }
 
     .about__content__1, .about__content__2{

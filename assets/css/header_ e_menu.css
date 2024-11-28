@@ -1,0 +1,136 @@
+.projects h2{
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding:  1rem;
+}
+
+.header__toggle{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__brand .brand__logo {
+    width: 10rem;
+
+}
+
+#toggleTheme{
+    font-size: 1.8rem;
+    color: var(--primary-collor);
+    cursor: pointer;
+    transition: ease-in-out .6s;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item{
+    width: 100%;
+}
+
+.menu--mobile{
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+    border-top: 2px solid var(--border-collor);
+    background-color: var(--primary-bg-collor);
+    transition: ease-in-out .6s;
+    z-index: 1;    
+}
+
+.menu--mobile .menu__link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 1rem;
+    gap: .5rem;
+
+}
+
+.menu__icon, .menu__text {
+    color: var(--icon-color)
+}
+
+.menu__link.active .menu__icon,
+ .menu__link.active .menu__text, 
+ .menu__link:hover .menu__icon, 
+ .menu__link:hover .menu__text{
+    color: var(--primary-collor);
+    font-weight: 600;
+    transition: ease-in-out .6s;
+
+}
+
+.menu__icon {
+    font-size: 1.5rem;
+}
+
+.menu__text {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+.header__nav{
+    display: none;
+}
+
+.menu--principal, .menu--social{
+    gap: 2rem;
+}
+
+
+@media (min-width:768px) {
+    .header {
+        position: fixed;
+        border-bottom: 1px solid var(--primary-border-color);
+        padding: 1rem 20rem;
+        background: var(--secondary-bg-collor);
+        z-index: 1;
+    }
+
+    .nav--mobile {
+        display: none;
+    }
+    
+    .header__nav {
+        display: flex;
+        justify-content: right;
+        width: 70%;
+    }
+    
+    .header__toggle {
+        min-width: 5%;  
+    }
+}
+
+@media (min-width:1200px) {
+    .header {
+        padding: 1rem 20rem;
+    }
+
+    .header__brand .brand__logo {
+        width: 15vw;  
+    }
+    .menu--principal{
+        display: flex;
+        justify-content:end;
+
+    }
+
+    .menu__text {
+        font-size: 1rem;
+    }
+}

@@ -211,8 +211,9 @@ function updateLanguages(profileData) {
                             </button>
                         </a>
                         <a href="${project.git_url}"> 
-                            <button class="btn">
+                            <button class="btn btn--primary">
                                 <span>repositório</span>
+                                <i class="bi bi-arrow-up-right"></i>
                             </button>
                         </a>
                     </div>
